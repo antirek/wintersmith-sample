@@ -1,5 +1,18 @@
 {
   "locals": {
     "title": "Bare minimum wintersmith site"
-  }
+  },
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "baseUrl": "/"
 }
